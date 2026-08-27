@@ -168,4 +168,98 @@ nav a{
     color:#2e7d32;
     margin-bottom:10px;
 }
+/* ===== DISEÑO PARA CELULARES ===== */
 
+@media (max-width: 768px) {
+
+    header {
+        padding: 25px 15px;
+    }
+
+    header img {
+        width: 180px;
+        max-width: 75%;
+        margin-bottom: 15px;
+    }
+
+    nav {
+        padding: 10px 5px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 6px 5px;
+        font-size: 14px;
+    }
+
+    section {
+        padding: 25px 15px;
+    }
+
+    .tarjetas {
+        gap: 15px;
+        margin-top: 30px;
+    }
+
+    .tarjeta {
+        width: 100%;
+        max-width: 320px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .ventajas {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .ventaja {
+        padding: 20px;
+    }
+
+    .galeria {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        padding: 10px;
+    }
+
+    .galeria img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+    }
+
+    .galeria img.completa {
+        object-fit: contain;
+    }
+
+    .boton {
+        font-size: 17px;
+        padding: 13px 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .whatsapp {
+        width: 55px;
+        height: 55px;
+        bottom: 15px;
+        right: 15px;
+        font-size: 26px;
+    }
+}
